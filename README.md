@@ -1,26 +1,3 @@
-# ordering-system
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
+Pizza点餐系统  
+  
+利用Vue全家桶(vue.js/vuex/vue-router/vue-cli@3.0)+Bmob后端云实现的点餐系统
