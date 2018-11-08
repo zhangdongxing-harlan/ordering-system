@@ -1,3 +1,3 @@
 module.exports= {
-    baseUrl:'./'
+    baseUrl:'/ordering-system/dist/'
 }
