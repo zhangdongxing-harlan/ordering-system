@@ -16,12 +16,13 @@ import Email from '../components/about/Email'
 Vue.use(VueRouter)
 
 export const routes = [
-    {path:'/',components:{
+    {path:'/home',components:{
         default:Home,
         'orderingGuide':OrderingGuide,
         'delivery':Delivery,
         'history':History
     }},
+    {path:'/',redirect:'/login'},
     {path:'/admin',component:Admin},
     {path:'/login',component:Login},
     {path:'/register',component:Register},
